@@ -1,0 +1,32 @@
+.about {
+
+  &__sections {
+      display: flex;
+      justify-content: space-between;
+      text-align: center;
+      align-items: center;
+      align-content: center;
+
+      @media(max-width: 600px) {
+          flex-direction: column;
+      }
+
+      a {
+          color: inherit;
+      }
+  }
+
+  &__card {
+      transition: all .5s ease;
+      flex: 1;
+
+      &:hover {
+          transform: scale(1.2);
+          color: $colour-slategray-dark;
+          
+          a {
+              color: inherit;
+          }
+      }
+  }
+}

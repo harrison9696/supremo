@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/ebfd1164df.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,300;0,400;1,300;1,400&family=Playfair+Display:ital,wght@0,600;0,700;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/fullpage.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Our Story | Supremo Coffee</title>
+</head>
+<body>
+    <main>
+        <!-- NAVBAR -->
+        <nav id="navbar" class="navbar navbar--transparent">
+            <div class="container">
+                <div class="navbar__flex">
+                    <div class="navbar__hamburger u-padding-2">
+                        <div class="navbar__hamburger-line"></div>
+                        <div class="navbar__hamburger-line"></div>
+                        <div class="navbar__hamburger-line"></div>
+                    </div>
+                    <div class="navbar__logo u-text-center u-padding-1">
+                        <h1 class="logo-text-primary">SUPREMO</h1>
+                        <h3 class="logo-text-secondary">COFFEE</h3>
+                    </div>
+                    <div class="navbar__cart u-padding-2">
+                        <i class="fas fa-shopping-cart fa-2x"></i>
+                        <i class="navbar__items"></i>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Navbar Popup -->
+            <div class="navbar__popup u-padding-4">
+                <div class="navbar__popup-header u-padding-x-2">
+                    <h2 class="u-text-center heading-other-2">Shopping Cart</h2>
+                </div>
+                <div class="navbar__popup-body u-padding-2">
+                    <div class="navbar__products"></div>
+                        <ul>
+                            <li class="navbar__product navbar__product--1 u-padding-y-1">
+                                <p class="u-padding-margin-0 supremo-delux"></p>
+                                <i class="fas fa-times remove-1"></i>
+                            </li>
+                            <li class="navbar__product navbar__product--2 u-padding-y-1">
+                                <p class="u-padding-margin-0 supremo-sweet"></p>
+                                <i class="fas fa-times remove-2"></i>
+                            </li>
+                            <li class="navbar__product navbar__product--3 u-padding-y-1">
+                                 <p class="u-padding-margin-0 supremo-nutty"></p>
+                                <i class="fas fa-times remove-3"></i>
+                            </li>
+                            <li class="navbar__product navbar__product--4 u-padding-y-1">
+                                <p class="u-padding-margin-0 coffee-set"></p>
+                                <i class="fas fa-times remove-4"></i>
+                            </li>
+                            <li class="navbar__product navbar__product--5 u-padding-y-1">
+                                <p class="u-padding-margin-0 coffee-mug"></p>
+                                <i class="fas fa-times remove-5"></i>
+                            </li>
+                            <li class="navbar__product navbar__product--6 u-padding-y-1">
+                                <p class="u-padding-margin-0 coffee-lights"></p>
+                                <i class="fas fa-times remove-6"></i>
+                            </li>
+                        </ul>
+                        </div>
+                    <div class="navbar__purchase u-text-center">
+                        <h2>Total</h2>
+                        <p class="navbar__price"></p>
+                        <a class="btn">Buy</a>
+                    </div>
+                </div>
+            </div>
+            <div class="navbar__overlay"></div>
+
+            <!-- Navbar Dropdown -->
+            <div class="navbar__open">
+                <div class="navbar__open-flex u-text-center u-padding-2 nav-open">
+                    <ul>
+                        <li class="logo-text-primary"><a href="index.html">HOME</a></li>
+                        <li class="logo-text-primary"><a href="ourstory.html">OUR STORY</a></li>
+                        <li class="logo-text-primary"><a href="store.html">STORE</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- FULL PAGE -->
+        <div id="fullpage">
+            <section class="section s1">
+                <div class="container">
+                    <div class="section__content">
+                        <h1>Sourcing and Harvesting</h1>
+                        <p>The journey begins in the Colombian Coffee Region, home of the best coffee plants in the world. We ensure that our plants are grown from the finest coffee seeds so that, when harvesting season arrives, our Supremo Coffee beans are full of flavour.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section s2">
+                <div class="container">
+                    <div class="section__content">
+                        <h1>Drying and Exportation</h1>
+                        <p>After the beans have been harvested they are passed through a state of the art drying process. The beans are then polished and graded to ensure that only the best quality Supremo beans are exported.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section s3">
+                <div class="container">
+                    <div class="section__content">
+                        <h1>Roasting the Coffee</h1>
+                        <p>Roasting transforms green coffee into aromatic brown breans. We hand roast our coffee to maintain a consistent quality and give us another chance to screen the beans before delivering them to our customers.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section s4">
+                <div class="container">
+                    <div class="section__content">
+                        <h1>The Perfect Cup of Coffee</h1>
+                        <p>Now the beans are ready to be brewed into the best cup of coffee you'll ever taste. Don't believe us? Come and try some for yourself!</p>
+                    </div>
+                </div>
+            </section>
+            
+            <section class="section s5">
+                <div class="container">
+                    <div class="section__content">
+                        <h1>Buy Now</h1>
+                        <p>We have three different ranges of coffee each with their own unique taste and aroma.</p>
+                        <a href="store.html" class="btn">Visit Our Store</a>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TimelineMax.min.js" integrity="sha512-0xrMWUXzEAc+VY7k48pWd5YT6ig03p4KARKxs4Bqxb9atrcn2fV41fWs+YXTKb8lD2sbPAmZMjKENiyzM/Gagw==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js" integrity="sha512-DkPsH9LzNzZaZjCszwKrooKwgjArJDiEjA5tTgr3YX4E6TYv93ICS8T41yFHJnnSmGpnf0Mvb5NhScYbwvhn2w==" crossorigin="anonymous"></script>
+    <script src="js/fullpage.min.js"></script>
+    <script src="js/ourstory.js"></script>
+    <script src="js/header.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,41 @@
+.navbar {
+  background-color: $colour-gray-dark;
+  color: $colour-white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+
+  &__flex {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      text-align: center;
+  }
+
+  &__hamburger {
+
+      &-line {
+          height: .2rem;
+          width: 3.7rem;
+          background-color: $colour-white;
+          
+          &:not(:last-child) {
+              margin-bottom: .6rem;
+          }
+      }
+  }
+
+  &--transparent {
+      background-color: transparent;
+
+      .navbar__logo {
+          display: hidden;
+      }
+  }
+}
+
+.content-push-down {
+  height: 9rem;
+}

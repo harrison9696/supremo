@@ -1,0 +1,54 @@
+.signup {
+
+  &__form {
+      font-family: 'Chivo', sans-serif;
+      
+      input {
+          padding: 1rem;
+          background-color: transparent;
+          color: white;
+          border: 1px solid $colour-white;
+          width: 37rem;
+          font-family: 'Chivo', sans-serif;
+
+          &:focus {
+              outline: none;
+          }
+
+          &::-webkit-input-placeholder {
+              color: #777;
+          }
+
+          @media(max-width: 375px) {
+              width: 30rem;
+          }
+
+          @media(max-width: 280px) {
+              width: 25rem;
+          }
+      }
+
+      button {
+          padding: 1rem;
+          background-color: transparent;
+          color: white;
+          border: 1px solid $colour-white;
+          width: 5rem;
+          font-family: 'Chivo', sans-serif;
+          transition: all .5s ease;
+          cursor: pointer;
+
+          &:focus {
+              outline: none;
+          }
+
+          &:hover {
+              background-color: $colour-slategray;
+          }
+
+          &:active {
+              background-color: $colour-slategray-light
+          }
+      }
+  }
+}

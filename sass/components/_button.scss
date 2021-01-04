@@ -1,0 +1,29 @@
+.btn {
+  padding: 1.3rem 3.7rem;
+  border: 1px solid $colour-white;
+  background-color: $colour-gray-dark;
+  color: $colour-white;
+  transition: all .5s ease;
+
+  &:hover {
+      background-color: $colour-slategray-light;
+  }
+
+  &:active {
+      background-color: $colour-slategray-dark;
+  }
+
+  &--secondary {
+      &:hover {
+          background-color: $colour-primary;
+          border-color: $colour-gray-dark;
+          color: $colour-gray-dark;
+      }
+  
+      &:active {
+          background-color: $colour-slategray-dark;
+          border-color: $colour-white;
+          color: $colour-white;
+      }
+  }
+}

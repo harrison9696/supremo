@@ -1,0 +1,50 @@
+#fullpage {
+  color: $colour-white;
+
+  .section {
+
+      &__content {
+          width: 33.3%;
+          padding: 2rem;
+          background-color: rgba(0, 0, 0, 0.75);
+          border-radius: 0.3rem;
+          position: absolute;
+          bottom: 5%;
+          right: 5%;
+
+          @media(max-width: 746px) {
+              width: 90%;
+          }
+      }
+  }
+
+  .s1 {
+      background-image: url(../img/ourstory/ourstory-1.jpg);
+      background-size: cover;
+      background-position: top;
+  }
+
+  .s2 {
+      background-image: url(../img/ourstory/outstory-2.jpg);
+      background-size: cover;
+      background-position: top;
+  }
+
+  .s3 {
+      background-image: url(../img/ourstory/ourstory-3.jpg);
+      background-size: cover;
+      background-position: top;
+  }
+
+  .s4 {
+      background-image: url(../img/ourstory/ourstory-4.jpg);
+      background-size: cover;
+      background-position: top;
+  }
+
+  .s5 {
+      background-image: url(../img/ourstory/ourstory-5.jpg);
+      background-size: cover;
+      background-position: top;
+  }
+}

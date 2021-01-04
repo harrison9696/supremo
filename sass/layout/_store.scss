@@ -1,0 +1,16 @@
+.store {
+
+  &__cards {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 5rem;
+
+      @media(max-width: 726px) {
+          grid-template-columns: repeat(2, 1fr);
+      }
+
+      @media(max-width: 482px) {
+          grid-template-columns: repeat(1, 1fr);
+      }
+  }
+}

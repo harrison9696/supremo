@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/ebfd1164df.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,300;0,400;1,300;1,400&family=Playfair+Display:ital,wght@0,600;0,700;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Store | Supremo Coffee</title>
+</head>
+<body>
+    <main>
+        <!-- NAVBAR -->
+        <nav id="navbar" class="navbar">
+            <div class="container">
+                <div class="navbar__flex">
+                    <div class="navbar__hamburger u-padding-2">
+                        <div class="navbar__hamburger-line"></div>
+                        <div class="navbar__hamburger-line"></div>
+                        <div class="navbar__hamburger-line"></div>
+                    </div>
+                    <div class="navbar__logo u-text-center u-padding-1">
+                        <h1 class="logo-text-primary">SUPREMO</h1>
+                        <h3 class="logo-text-secondary">COFFEE</h3>
+                    </div>
+                    <div class="navbar__cart u-padding-2">
+                        <i class="fas fa-shopping-cart fa-2x"></i>
+                        <i class="navbar__items"></i>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Navbar Popup -->
+            <div class="navbar__popup u-padding-4">
+                <div class="navbar__popup-header u-padding-x-2">
+                    <h2 class="u-text-center heading-other-2">Shopping Cart</h2>
+                </div>
+                <div class="navbar__popup-body u-padding-2">
+                    <div class="navbar__products"></div>
+                        <ul>
+                            <li class="navbar__product navbar__product--1 u-padding-y-1">
+                                <p class="u-padding-margin-0 supremo-delux"></p>
+                                <i class="fas fa-times remove-1"></i>
+                            </li>
+                            <li class="navbar__product navbar__product--2 u-padding-y-1">
+                                <p class="u-padding-margin-0 supremo-sweet"></p>
+                                <i class="fas fa-times remove-2"></i>
+                            </li>
+                            <li class="navbar__product navbar__product--3 u-padding-y-1">
+                                 <p class="u-padding-margin-0 supremo-nutty"></p>
+                                <i class="fas fa-times remove-3"></i>
+                            </li>
+                            <li class="navbar__product navbar__product--4 u-padding-y-1">
+                                <p class="u-padding-margin-0 coffee-set"></p>
+                                <i class="fas fa-times remove-4"></i>
+                            </li>
+                            <li class="navbar__product navbar__product--5 u-padding-y-1">
+                                <p class="u-padding-margin-0 coffee-mug"></p>
+                                <i class="fas fa-times remove-5"></i>
+                            </li>
+                            <li class="navbar__product navbar__product--6 u-padding-y-1">
+                                <p class="u-padding-margin-0 coffee-lights"></p>
+                                <i class="fas fa-times remove-6"></i>
+                            </li>
+                        </ul>
+                        </div>
+                    <div class="navbar__purchase u-text-center">
+                        <h2>Total</h2>
+                        <p class="navbar__price"></p>
+                        <a class="btn">Buy</a>
+                    </div>
+                </div>
+            </div>
+            <div class="navbar__overlay"></div>
+
+            <!-- Navbar Dropdown -->
+            <div class="navbar__open">
+                <div class="navbar__open-flex u-text-center u-padding-2 nav-open">
+                    <ul>
+                        <li class="logo-text-primary"><a href="index.html">HOME</a></li>
+                        <li class="logo-text-primary"><a href="ourstory.html">OUR STORY</a></li>
+                        <li class="logo-text-primary"><a href="store.html">STORE</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Content push down -->
+        <div class="content-push-down"></div>
+
+        <!-- STORE -->
+        <section id="store" class="store">
+            <div class="container">
+                <div class="store__header u-text-center u-padding-x-2 u-padding-y-10">
+                    <h2 class="heading-primary heading-primary--dark">Our Store</h2>
+                    <div class="line line--dark u-margin-bottom-1"></div>
+                    <h4 class="heading-secondary heading-secondary--dark">Everything you need to brew the perfect cup of Coffee at home</h4>
+                </div>
+                <div class="store__cards u-padding-x-2 u-margin-bottom-10">
+                    <div class="card">
+                        <div class="card__side card__side--front">
+                            <div class="card__picture card__picture--1">
+                                &nbsp;
+                            </div>
+                            <div class="card__heading u-padding-x-2 u-text-center u-margin-bottom-1">
+                                <h2>Supremo Delux</h2>
+                            </div>
+                            <div class="card__details u-padding-x-2 u-text-center">
+                                <p>Our famous and finest coffee with a strong and natural aroma and taste</p>
+                            </div>
+                        </div>
+                        <div class="card__side card__side--back">
+                            <div class="card__flex u-padding-2 u-text-center">
+                                <div class="card__list">
+                                    <ul>
+                                        <li>The best of the best</li>
+                                        <li>Organic</li>
+                                        <li>3 * 1kg bag</li>   
+                                    </ul>
+                                </div>
+                                <div class="card__price">
+                                    <h2 class="heading-other-2">£39.99</h2>
+                                </div>
+                                <div class="card__button">
+                                    <button class="btn btn--secondary btn--buy">Buy Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card__side card__side--front">
+                            <div class="card__picture card__picture--2">
+                                &nbsp;
+                            </div>
+                            <div class="card__heading u-padding-x-2 u-text-center u-margin-bottom-1">
+                                <h2>Supremo Sweet</h2>
+                            </div>
+                            <div class="card__details u-padding-x-2 u-text-center">
+                                <p>A coffee bean with a subtle sweet smell and taste</p>
+                            </div>
+                        </div>
+                        <div class="card__side card__side--back">
+                            <div class="card__flex u-padding-2 u-text-center">
+                                <div class="card__list">
+                                    <ul>
+                                        <li>A more delicate coffee</li>
+                                        <li>Organic</li>
+                                        <li>3 * 1kg bag</li>   
+                                    </ul>
+                                </div>
+                                <div class="card__price">
+                                    <h2 class="heading-other-2">£29.99</h2>
+                                </div>
+                                <div class="card__button">
+                                    <button class="btn btn--secondary btn--buy">Buy Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card__side card__side--front">
+                            <div class="card__picture card__picture--3">
+                                &nbsp;
+                            </div>
+                            <div class="card__heading u-padding-x-2 u-text-center u-margin-bottom-1">
+                                <h2>Supremo Nutty</h2>
+                            </div>
+                            <div class="card__details u-padding-x-2 u-text-center">
+                                <p>A coffee bean with a smooth nutty flavour</p>
+                            </div>
+                        </div>
+                        <div class="card__side card__side--back">
+                            <div class="card__flex u-padding-2 u-text-center">
+                                <div class="card__list">
+                                    <ul>
+                                        <li>A beautiful tasting coffee</li>
+                                        <li>Organic</li>
+                                        <li>3 * 1kg bag</li>   
+                                    </ul>
+                                </div>
+                                <div class="card__price">
+                                    <h2 class="heading-other-2">£29.99</h2>
+                                </div>
+                                <div class="card__button">
+                                    <button class="btn btn--secondary btn--buy">Buy Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card__side card__side--front">
+                            <div class="card__picture card__picture--4">
+                                &nbsp;
+                            </div>
+                            <div class="card__heading u-padding-x-2 u-text-center u-margin-bottom-1">
+                                <h2>Complete Coffee Set</h2>
+                            </div>
+                            <div class="card__details u-padding-x-2 u-text-center">
+                                <p>Brew the perfect coffee in the comfort of your own home</p>
+                            </div>
+                        </div>
+                        <div class="card__side card__side--back">
+                            <div class="card__flex u-padding-2 u-text-center">
+                                <div class="card__list">
+                                    <ul>
+                                        <li>Includes:</li>
+                                        <li>Stainless steel coffee mill</li>
+                                        <li>Walnut base and stand</li>
+                                        <li>Brass filter</li>
+                                        <li>Glass coffee pot</li>
+                                    </ul>
+                                </div>
+                                <div class="card__price">
+                                    <h2 class="heading-other-2">£120</h2>
+                                </div>
+                                <div class="card__button">
+                                    <button class="btn btn--secondary btn--buy">Buy Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card__side card__side--front">
+                            <div class="card__picture card__picture--5">
+                                &nbsp;
+                            </div>
+                            <div class="card__heading u-padding-x-2 u-text-center u-margin-bottom-1">
+                                <h2>Perfect Blend Mug</h2>
+                            </div>
+                            <div class="card__details u-padding-x-2 u-text-center">
+                                <p>Our very own coffee mug</p>
+                            </div>
+                        </div>
+                        <div class="card__side card__side--back">
+                            <div class="card__flex u-padding-2 u-text-center">
+                                <div class="card__list">
+                                    <ul>
+                                        <li>Masterfully crafted</li>
+                                        <li>Made of bone china</li>
+                                        <li>Dishwasher safe</li>   
+                                    </ul>
+                                </div>
+                                <div class="card__price">
+                                    <h2 class="heading-other-2">£5</h2>
+                                </div>
+                                <div class="card__button">
+                                    <button class="btn btn--secondary btn--buy">Buy Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card__side card__side--front">
+                            <div class="card__picture card__picture--6">
+                                &nbsp;
+                            </div>
+                            <div class="card__heading u-padding-x-2 u-text-center u-margin-bottom-1">
+                                <h2>Coffee Lights</h2>
+                            </div>
+                            <div class="card__details u-padding-x-2 u-text-center">
+                                <p>All you need it coffee</p>
+                            </div>
+                        </div>
+                        <div class="card__side card__side--back">
+                            <div class="card__flex u-padding-2 u-text-center">
+                                <div class="card__list">
+                                    <ul>
+                                        <li>Perfect for house decoration</li>
+                                        <li>Different colour settings</li>
+                                        <li>150cm * 150cm</li>   
+                                    </ul>
+                                </div>
+                                <div class="card__price">
+                                    <h2 class="heading-other-2">£100</h2>
+                                </div>
+                                <div class="card__button">
+                                    <button class="btn btn--secondary btn--buy">Buy Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <!-- SIGN UP -->
+            <section id="signup" class="signup u-text-center u-padding-x-2 u-padding-y-4">
+                <div class="container">
+                    <div class="signup__logo u-margin-bottom-1">
+                        <h1 class="logo-text-primary logo-text-primary--small">SUPREMO</h1>
+                        <h3 class="logo-text-secondary logo-text-secondary--small">COFFEE</h3>
+                    </div>
+                    <p>Recieve exclusive offers, updates and coffee tips straight from us</p>
+                    <div class="signup__form">
+                        <input type="email" id="email" name="email" placeholder="email@example.com">
+                        <button type="submit"><i class="fas fa-long-arrow-alt-right"></i></button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- FOOTER -->
+            <section id="footer" class="footer u-padding-y-6 u-padding-2">
+                <div class="container">
+                    <div class="footer__socials u-text-center u-padding-y-2">
+                        <i class="fab fa-facebook social u-margin-right-2"></i>
+                        <i class="fab fa-instagram social u-margin-right-2"></i>
+                        <i class="fab fa-twitter social u-margin-right-2"></i>
+                        <i class="fab fa-youtube social"></i>
+                    </div>
+
+                    <div class="footer__flex">
+                        <div class="footer__links smallprint u-padding-y-1">
+                            <p class="u-margin-right-2"><a href="#">Delivery</a></p>
+                            <p class="u-margin-right-2"><a href="#">Terms</a></p>
+                            <p class="u-margin-right-2"><a href="#">Privacy</a></p>
+                            <p class="u-margin-right-2"><a href="#">Contact</a></p>
+                        </div>
+                        <div class="footer__copyright smallprint u-padding-y-1">
+                            <p>&copy; Supremo Coffee 2020 - All Rights Reserved</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </footer>
+    </main>
+
+    <script src="js/header.js"></script>
+
+</body>
+</html>
