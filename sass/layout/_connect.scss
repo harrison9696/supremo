@@ -1,117 +1,128 @@
 .connect {
-  height: 50rem;
-  background-image: linear-gradient(90deg, $colour-secondary 0%, $colour-secondary 50%, $colour-primary 50%, $colour-primary 100%);
+	height: 50rem;
+	background-image: linear-gradient(
+		90deg,
+		$colour-secondary 0%,
+		$colour-secondary 50%,
+		$colour-primary 50%,
+		$colour-primary 100%
+	);
 
-  @media(max-width: 414px) {
-      height: 40rem;
-      background-image: linear-gradient(90deg, $colour-secondary 0%, $colour-secondary 50%, $colour-secondary 50%, $colour-secondary 100%);
-  }
+	@media (max-width: 414px) {
+		height: 40rem;
+		background-image: linear-gradient(
+			90deg,
+			$colour-secondary 0%,
+			$colour-secondary 50%,
+			$colour-secondary 50%,
+			$colour-secondary 100%
+		);
+	}
 
-  &__flex {
-      height: 50rem;
-      display: flex;
-  }
+	&__flex {
+		height: 50rem;
+		display: flex;
+	}
 
-  &__location {
-      height: 50rem;
-      flex: 1;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      text-align: center;
-      align-items: center;
-      align-content: center;
-      color: $colour-white;
+	&__location {
+		height: 50rem;
+		flex: 1;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		text-align: center;
+		align-items: center;
+		align-content: center;
+		color: $colour-white;
 
-      @media(max-width: 480px) {
-          justify-content: space-between;
-      }
+		@media (max-width: 480px) {
+			justify-content: space-between;
+		}
 
-      h2, .line {
-          transform: translateY(-6rem);
+		h2,
+		.line {
+			transform: translateY(-6rem);
 
-          @media(max-width: 480px) {
-              transform: translate(0);
-          }
-      }
+			@media (max-width: 480px) {
+				transform: translate(0);
+			}
+		}
 
-      h3, h4 {
-          transform: translateY(-7rem);
+		h3,
+		h4 {
+			transform: translateY(-7rem);
 
-          @media(max-width: 480px) {
-              transform: translate(0);
-          }
-      }
+			@media (max-width: 480px) {
+				transform: translate(0);
+			}
+		}
+	}
 
-  }
+	&__team {
+		height: 50rem;
+		flex: 1;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		text-align: center;
+		align-items: center;
+		align-content: center;
 
-  &__team {
-      height: 50rem;
-      flex: 1;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      text-align: center;
-      align-items: center;
-      align-content: center;
+		@media (max-width: 480px) {
+			justify-content: space-between;
+		}
 
-      @media(max-width: 480px) {
-          justify-content: space-between;
-      }
+		@media (max-width: 414px) {
+			display: none;
+		}
+	}
 
-      @media(max-width: 414px) {
-          display: none;
-      }
-  }
+	&__member {
+		display: none;
+	}
 
-  &__member {
-      display: none;
-  }
+	&__shape {
+		box-sizing: border-box;
+		overflow: hidden;
 
-  &__shape {
-      box-sizing: border-box;
-      overflow: hidden;
+		img {
+			width: 22rem;
+			border-radius: 50%;
+			transition: all 1.5s ease;
+		}
 
-      img {
-          width: 22rem;
-          border-radius: 50%;
-          transition: all 1.5s ease;
-      }
+		figcaption {
+			transform: translateY(50rem);
+			opacity: 0;
+			transition: all 1.5s ease-in-out;
+		}
 
-      figcaption {
-          transform: translateY(50rem);
-          opacity: 0;
-          transition: all 1.5s ease-in-out;
-      }
+		&:hover {
+			img {
+				opacity: 0.75;
+			}
 
-      &:hover {
+			figcaption {
+				transform: translateY(0);
+				opacity: 1;
+			}
+		}
+	}
 
-          img {
-              opacity: .75;
+	i {
+		color: $colour-gray-dark;
+		transition: all 0.5s ease;
+	}
 
-          }
+	i:hover {
+		color: $colour-slategray-light;
+	}
 
-          figcaption {
-              transform: translateY(0);
-              opacity: 1;
-          }
-      }
-  }
+	i:active {
+		color: $colour-slategray-dark;
+	}
 
-  i {
-      color: $colour-gray-dark;
-      transition: all .5s ease;
-  }
-  
-  i:hover {
-      color: $colour-slategray-light;
-  }
-
-  i:active {
-      color: $colour-slategray-dark;
-  }
-
-  .current-member {
-      display: block;
-  }
+	.current-member {
+		display: block;
+	}
 }

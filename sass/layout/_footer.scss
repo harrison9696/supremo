@@ -1,35 +1,35 @@
 .signup {
-  background-color: $colour-slategray-dark;
-  color: $colour-white;
+	background-color: $colour-slategray-dark;
+	color: $colour-white;
 }
 
 .footer {
-  background-color: $colour-gray-dark;
-  color: #f7f7f7;
+	background-color: $colour-gray-dark;
+	color: #f7f7f7;
 
-  &__flex {
-      display: flex;
-      justify-content: flex-end;
-      border-top: 1px solid #777;
-      position: relative;
-  }
+	&__flex {
+		display: flex;
+		justify-content: flex-end;
+		border-top: 1px solid #777;
+		position: relative;
+	}
 
-  &__links {
-      flex: 1;
-      display: flex;
+	&__links {
+		flex: 1;
+		display: flex;
 
-      @media(max-width: 430px) {
-          justify-content: center;
-      }
-  }
+		@media (max-width: 430px) {
+			justify-content: center;
+		}
+	}
 
-  &__copyright {
-      flex: 1;
-      position: absolute;
-      right: 0;
+	&__copyright {
+		flex: 1;
+		position: absolute;
+		right: 0;
 
-      @media(max-width: 430px) {
-          display: none;
-      }
-  }
+		@media (max-width: 430px) {
+			display: none;
+		}
+	}
 }

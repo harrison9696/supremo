@@ -1,16 +1,16 @@
 .showcase-2 {
-  height: 75rem;
-  background-image: url(../img/home/home-showcase-2.jpg);
-  background-size: cover;
-  background-position: top;
+	height: 75rem;
+	background-image: url(../img/home/home-showcase-2.jpg);
+	background-size: cover;
+	background-position: top;
 
-  &__content {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      text-align: center;
-      align-content: center;
-      align-items: center;
-      padding: 20rem 2rem 2rem 2rem;
-  }
+	&__content {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		text-align: center;
+		align-content: center;
+		align-items: center;
+		padding: 20rem 2rem 2rem 2rem;
+	}
 }
